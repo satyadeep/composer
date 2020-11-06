@@ -7,6 +7,9 @@ Extends the official version of composer by adding the **gd** PHP extension maki
 
 Using PHP Extension Installer script from [here](https://github.com/mlocati/docker-php-extension-installer).
 
+## Additional PHP Extensions
+Includes bcmath and also has git installed (Useful for installing some Drupal distributions using composer)
+
 ## Example Usage
 
 ```
