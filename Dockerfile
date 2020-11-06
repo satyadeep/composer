@@ -7,7 +7,7 @@ ADD https://raw.githubusercontent.com/mlocati/docker-php-extension-installer/mas
 # Add common extensions
 RUN chmod uga+x /usr/local/bin/install-php-extensions && sync \
       && install-php-extensions gd \
-      bcmath
+      bcmath \
       && apk add git
 
 CMD ["composer"]
